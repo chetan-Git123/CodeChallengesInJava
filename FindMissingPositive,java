@@ -31,13 +31,13 @@ class Solution
       }
       List<Integer> inputList = new ArrayList<Integer>(inputSet);
       
-      //Usecases. Datastructure has no elements
+      //Usecases. Data structure has no elements
       if(inputList.size()==0)
       {
           return 1;
       }
       
-      //Usecases. Datastructure has 1 element
+      //Usecases. Data structure has 1 element
       if(inputList.size()==1)
       {
             if(  inputList.get(0)>1 )
@@ -50,7 +50,7 @@ class Solution
             }  
       }
       
-      //Usecases. Datastructure has multiple element
+      //Usecases. Data structure has multiple element
       int currentElement;
       int prevElement;
        for(int count=0; count<=inputList.size()-1; count++)
