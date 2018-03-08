@@ -50,7 +50,7 @@ class Solution
             }  
       }
       
-      //Usecases. Data structure has multiple element
+      //Usecases. Data structure has multiple elements
       int currentElement;
       int prevElement;
        for(int count=0; count<=inputList.size()-1; count++)
