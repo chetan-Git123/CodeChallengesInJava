@@ -1,5 +1,7 @@
 import java.util.Arrays;
-
+/*
+Problem Statement: Input 2 Strings. Return true if they are anagram of each other. Return false otherwise.
+*/
 class ProgramAnagram
 {
  public static void main(String args[])
