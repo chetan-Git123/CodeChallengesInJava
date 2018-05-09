@@ -1,6 +1,6 @@
 
 /*
-Problem Statement: Suppose you are given a String of letters, compress this String into its compressed form. 
+Problem Statement: Suppose you are given a String of letters, compress this String into its base form. 
 Example1- aabbbcccc would return a2b3c4
 Example2- abbcc would return ab2c2 (Note that we did not put a1 since 1 would Not provide useful information)
 */
