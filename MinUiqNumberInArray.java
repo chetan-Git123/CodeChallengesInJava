@@ -1,10 +1,13 @@
+/*
+Problem Statement: Find the minimum unique number in a Array. Example- {1,1,5,5,1,8,8,3} should return 3
+*/
 import java.util.Arrays;
 
 class MinUiqNumberInArray
 {
 	public static void main(String arga[])
 	{
-		int[] inputArray = {1,1,5,5,1,8,8,3,3};
+		int[] inputArray = {1,1,5,5,1,8,8,3};
 		int minNum =  minUniqNumberInArray(inputArray);
 		System.out.println("minNum is ->"+minNum);
 	}
