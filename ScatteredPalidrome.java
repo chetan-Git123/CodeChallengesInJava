@@ -23,7 +23,7 @@ class ScatteredPalidrome
 		/* Traverse through all characters of the String. If the character is Not present in the List, include it in the List. 
 		   If the character is in the List, then remove that character. 
 		   To qualify as a scattered palindrome, for a String with odd number of characters, the length of the monitoring List should be 1.
-           To qualify as a scattered palindrome, for a String with even number of characters, length of the monitiring list should be 0.	   
+                   To qualify as a scattered palindrome, for a String with even number of characters, length of the monitiring list should be 0.	   
 		*/
 		for(int count=0; count<inputString.length(); count++)
 		{
