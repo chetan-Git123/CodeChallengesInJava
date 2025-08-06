@@ -26,7 +26,7 @@ class Compression
 		}
 		
 		//Convert the input Set into an ArrayList 
-        List<Character> inputSetAsList = new ArrayList<Character>(inputSet);
+                List<Character> inputSetAsList = new ArrayList<Character>(inputSet);
       
 		
 		//Find the occurence of each unique element in the input String
